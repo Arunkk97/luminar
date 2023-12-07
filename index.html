@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminar Technolab</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./luminar.css">
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="./image/logo vanner 0.1.ad159943.png" alt="" class="w-25"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-black links" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black links" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black links" href="#">Placements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black links" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black links" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black links" href="#">Contact</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="./image/WhatsApp Image 2023-12-06 at 11.52.20_ca95b395.jpg" class="d-block w-100 carouselimg"
+                    alt="...">
+                <div class="carousel-caption  txt1">
+                    <h1 class="text-white text-start headd">Kerala's No.1 IT Finishing School <br>100% Placement Assistance
+                    </h1>
+                    <p class="text-white text-start">We at LUMINAR TECHNOLAB offers best software training and
+                        placement
+                        in emerging <br> technologies like
+                        BIG DATA, Data Science, Machine Learning,PYTHON, Software Testing.</p>
+                    <button class="view">VIEW COURSES</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./image/WhatsApp Image 2023-12-06 at 11.52.20_673886f2.jpg" class="d-block w-100 carouselimg"
+                    alt="...">
+                <div class="carousel-caption   txt2">
+                    <h1 class="text-white text-start headd">Data Science, ML & AI <br>Big Data - Hadoop & Spark <br>Python
+                        Data Science</h1>
+                    <p class="text-white text-start">We LUMINAR TECHNOLAB offers best software training and placement in
+                        emerging <br>technologies like Big Data, Hadoop, Spark,Data Scince, Machine Learning, Deep
+                        Learning and <br>AI.</p>
+                    <button class="view">VIEW COURSES</button>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- modal -->
+
+    <!-- Button trigger modal -->
+    <div class="container">
+        <button type="button" class="btn btn-primary m-2 " data-bs-toggle="modal" data-bs-target="#exampleModal">
+            For more info
+        </button>
+    </div>
+
+    <!-- Modal -->
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+
+                <div class="modal-body ms-5 p-5 me-5">
+                    <h1 class="modal-title fs-5 mb-2" id="exampleModalLabel">Get Training Quote For Free</h1>
+                    <form action="">
+                        <div>
+                            <!-- <label for="n">Name</label> -->
+                            <input type="text" id="n" class=" w-100 border-0" placeholder="Name">
+                        </div>
+                        <hr>
+                        <div>
+                            <!-- <label for="e">Email</label> -->
+                            <input type="email" id="e" class="w-100 border-0" placeholder="Email">
+                        </div>
+                        <hr>
+                        <div>
+                            <!-- <label for="p">Phone Number</label> -->
+                            <input type="tel" id="p" class="w-100 border-0" placeholder="Phone Number">
+                        </div>
+                        <hr>
+                        <div>
+                            <!-- <label for="co">Select course interested in</label> -->
+                            <select name="" id="co" class=" w-100 border-0">
+                                <option value="" selected="true" disabled="disabled">Select course interested in
+                                </option>
+                                <option value="">MEAN</option>
+                                <option value="">MERN</option>
+                                <option value="">PYTHON</option>
+                                <option value="">DATA SCIENCE</option>
+                            </select>
+                        </div>
+                        <hr>
+                        <div>
+                            <!-- <label for="c">City</label> -->
+                            <input type="text" id="c" class="w-100 border-0" placeholder="City">
+                        </div>
+                        <hr>
+                        <div>
+                            <!-- <label for="cm">Comments</label> -->
+                            <textarea name="" id="cm" cols="10" rows="2" class="w-100 border-0  form-control"
+                                placeholder="Comments"></textarea>
+                        </div>
+
+
+                    </form>
+
+                    <!-- <div class="modal-footer "> -->
+                    <!-- <button type="button" class="btn btn-secondary p" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-success  mt-3">Submit</button>
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- grid -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h3 class=" mb-3 mt-5 ghead1">Luminar Technolab Pvt Ltd </h3>
+                <h5 class=" mt-4 ghead2">CIN: U80220KL2021PTC071578</h5>
+                <p class="  para">Luminar Technolab is an IT Finishing School located near Infopark - Cochin, focused on
+                    providing advanced level
+                    software training to Students and by helping them to get placed in IT companies. We are a team of IT
+                    professionals who have experience in IT sector for more than 15 plus years. Our fresher’s career
+                    foster programs
+                    are Big Data Training, Data Science Training, Data Analytics Training, Python Training, Software
+                    Testing
+                    Training & Selenium Training in Cochin, Kerala are designed in such a way to match with the current
+                    industry requirements. Our Vision is to provide 100% placements to students those who enroll with us
+                    for
+                    our specialized courses.</p>
+                    <button class="learn  mt-5">LEARN MORE</button>
+            </div>
+            <div class="col-lg-4">
+                <img src="./image/qq.jpg" alt="" class="gridimg w-100 mt-5">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
