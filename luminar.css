@@ -229,6 +229,7 @@ span {
     color: white;
     border: none;
     height: 40px;
+    font-size: 12px;
 
 }
 
@@ -237,6 +238,17 @@ span {
         width: 100px;
         height: 40px;
         font-size: x-small;
+    }
+    .cardhed{
+        font-size: 12px;
+    }
+    .cardp{
+        font-size: 8px;
+    }
+    .morebtn{
+        font-size: 10px;
+        height: 30px;
+        width: 70px;
     }
 }
 .cardhover:hover{
